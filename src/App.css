@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+
+.container {
+  min-height: 100vh;
+
+  background:
+  url("https://images.unsplash.com/photo-1522202176988-66273c2fd55f")
+  center/cover no-repeat;
+}
+
+
+.overlay {
+  min-height: 100vh;
+
+  background: rgba(227, 234, 234, 0);
+
+  padding: 40px;
+
+  text-align: center;
+
+  color: white;
+}
+
+
+h1 {
+  font-size: 40px;
+}
+
+
+.subtitle {
+  margin: 15px;
+  font-size: 18px;
+}
+
+
+.card {
+  width: 400px;
+
+  margin: 30px auto;
+
+  background: rgb(180, 186, 194);
+
+  backdrop-filter: blur(10px);
+
+  padding: 25px;
+
+  border-radius: 20px;
+}
+
+
+form {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 12px;
+}
+
+
+input {
+  padding: 12px;
+
+  border-radius: 8px;
+
+  border: none;
+}
+
+
+button {
+  padding: 12px;
+
+  border: none;
+
+  border-radius: 8px;
+
+  background: #717ab1;
+
+  color: rgb(255, 255, 255);
+
+  cursor: pointer;
+
+  font-size: 16px;
+}
+
+
+button:hover {
+  background: #1e95b0;
+}
+
+
+.heading {
+  margin: 25px;
+}
+
+
+.schedule-grid {
+  display: grid;
+
+  grid-template-columns:
+  repeat(auto-fit, minmax(250px,1fr));
+
+  gap: 20px;
+}
+
+
+.schedule-card {
+  background: rgba(159, 28, 28, 0.797);
+
+  backdrop-filter: blur(8px);
+
+  padding: 20px;
+
+  border-radius: 15px;
+}
+
+
+.schedule-card h3 {
+  margin-bottom: 10px;
+}
+
+
+.schedule-card p {
+  margin: 8px;
+}
+
+
+.delete-btn {
+  background: rgb(121, 134, 151);
+
+  margin-top: 10px;
+}
+
+
+.delete-btn:hover {
+  background: rgb(83, 172, 162);
+}
